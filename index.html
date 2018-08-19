@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Welcome to Chris Liu's home page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,15 +23,20 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
+    <!-- Photo Wall-->
+    <link rel="stylesheet" href="css/gallery-grid.css">
+
+    <!-- posts -->
+    <link rel="stylesheet" href="css/freelancer.css">
   </head>
 
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Welcome!</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,10 +48,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -55,7 +63,7 @@
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            <a class="nav-link js-scroll-trigger" href="#photos">Photos</a>
           </li>
         </ul>
       </div>
@@ -65,32 +73,17 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Clarence
-            <span class="text-primary">Taylor</span>
+          <h1 class="mb-0">Chris
+            <span class="text-primary">Liu</span>
           </h1>
-          <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-            <a href="mailto:name@email.com">name@email.com</a>
+          <div class="mb-5"> USC, Los Angeles, CA&nbsp;&nbsp;
+            <a href="mailto:xiangchong95@gmail.com">xiangchong95@gmail.com</a>
+            <span id="resume"></span>
           </div>
-          <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          <p class="mb-5"><b>Data Science</b> track master student at USC with experience in big data, cloud computing, front-end development and machine learning. Strong knowledge of Python, JavaScript, html/css, familiarity with AWS, Git, Agile Development & Scrum. Currently a <b>full-stack engineer intern</b> at Edmunds, working in ads team. Quick learner, Passionate about exploring new technologies. Interested in software development and related full-time opportunities.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/chrisliu95" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -98,14 +91,73 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/ChrisLiu95" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
+            <li class="list-inline-item">
+              <a href="https://leetcode.com/xiangchong/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/chrisliu95/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
           </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Southern California</h3>
+              <div class="mb-3"><b>Master of Data Science</b></div>
+              <div>Electrical Engineering - Data Science Track</div>
+              <p>GPA: 3.56/4.00</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"> 08/2017 - 05/2019 </span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Beijing University of Posts and Telecommunications</h3>
+              <div class="mb-3"><b>Bachelor of Engineering</b></div>
+              <div>Telecommunications with Management - International School</div>
+              <p>GPA: 3.70/4.00</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">09/2013 - 06/2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Queen Mary University of London</h3>
+              <div class="mb-3"><b>Bachelor of Engineering</b></div>
+              <div>Telecommunications with Management - International School</div>
+              <p>GPA: 3.70/4.00</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">09/2014 - 06/2017</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -115,45 +167,37 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <h3 class="mb-0">Full-Stack Engineer Intern</h3>
+              <div class="subheading mb-3"><a href="http://www.edmunds.com" target="_blank">Edmunds, &nbsp</a> Santa Monica, Los Angeles, CA </div>
+              <p> • Working in Ads team, the money team, kanda cool right? This internship aimed to design new ads template for our business partner, make sure every ads on our page works well, ads loading time optimization and explore new ways attracting our customers to click the ads on page, which may apply Machine Learning in the future. After all, a single ads unit could make 1 million dollars per month, we're doing amazing job so far. </p>
+              <p> • Leader of Edmunds intern project team. Designed a car recognition program based on Tensorflow inception V3 image recognition model. Retrained the model by Edmunds' image data from database, as well as other data source like Google images. Finally, ML model achieves 90% accuracy. Also designed an UI for customers to input their images, built the connection between front-end and back-end, which was deployed in AWS. This program helps making smart recommendation and likely it will be added to Edmunds codebase in the future.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
+              <span class="text-primary">05/2018 - Present</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Assistant</h3>
+              <div class="subheading mb-3"><a href="http://www.ime.ac.cn/" target="_blank">Institute of Microelectronics of Chinese Academy of Sciences,</a> Beijing, China</div>
+              <p>• Participated in the research on core technology of NDIR gas detection system.</p>
+              <p>• C Programming for controllable multiples magnification and noise reduction processing of the weak signal output by sensors.</p>
+              <p>• Built the SPI communications between gas sensor and ARM, and output the concentration of gas.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">07/2016 - 05/2017</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <h3 class="mb-0">Data Analyst Intern</h3>
+              <div class="subheading mb-3"><a href="http://www.thegmic.com/" target="_blank">GWC (Great Wall Club),</a> Beijing, China</div>
+              <p>• Analyze customers’ information and finalize target customers, update data on both website and database.</p>
+              <p>• Organized the G-Startup Worldwide competition of Global Mobile Internet Conference (GMIC) in Beijing.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
+              <span class="text-primary">04/2017 - 06/2017</span>
             </div>
           </div>
 
@@ -161,33 +205,21 @@
 
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
-            </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+        <div class="my-auto"> 
+          <h2 class="mb-5">Portfolios</h2>
+          <div>
+            <h4>
+              <a href="#post1" data-toggle="modal"> Car Make Recognition</a>
+            </h4>
+            <p> May 2018 - Aug 2018</p>
           </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
-            </div>
+          <div>
+            <h4>
+              <a href="#post2" data-toggle="modal"> Travel and Entertainment Search Engine</a>
+            </h4>
+            <p> Feb 2018 - May 2018</p>
           </div>
-
         </div>
       </section>
 
@@ -196,53 +228,29 @@
           <h2 class="mb-5">Skills</h2>
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
+          <ul class="fa-ul mb-5">
+            <li>
+              <i class="fa-li fa fa-code"></i>
+              Programming Languages: <i>Python, JavaScript, HTML/CSS, Java, C, PHP</i></li>
+            <li>
+              <i class="fa-li fa fa-cloud"></i>
+              Cloud Computing: <i>AWS</i></li>
+            <li>
+              <i class="fa-li fa fa-laptop"></i>
+              Operating System: <i>Mac OS, Linux</i></li>
+            <li>
+              <i class="fa-li fa fa-github"></i>
+              Others: <i> Git</i></li>
           </ul>
 
-          <div class="subheading mb-3">Workflow</div>
+          <div class="subheading mb-0">Workflow</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
               Mobile-First, Responsive Design</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
+              Cross Broswer Testing & Debugging</li>
             <li>
               <i class="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum</li>
@@ -253,47 +261,153 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <p> Apart from being a software developer, I'm really into traveling and exploring yummy food around the world! Road trip is always my favorate way for relaxing and enjoying my life. I love meeting new faces from all over the world, btw this is also the coolest thing about living in LA, cuz LA is such an international city LOL! </p>
+          <p> Love Japanese food like sushi! Also, big fans of mexican food, tacos and quesdalla are sooooo damn good!! Even though, Chinese food is always the best in my heart :)</p>
+          <p> Crazy and die-hard fan of Lebron James! Looking forward to watching one Lebron game in Staples, which is something always in my bucket list :)   Meanwhile, Love hiking, swimming, badminton, basketball and bodybuilding. </p>
+          <p class="mb-0">When forced indoors, I spend a large amount of my free time exploring the latest technolgy advancements in algorithm(leetcode), software development, and machine learning.</p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="photos">
+          <h2 class="mb-5">My photo wall</h2>
+              <div class="container-fluid gallery-container">
+                <div class="tz-gallery">
+
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8096.png">
+                                <img src="img/photo/img_8096.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8093.png">
+                                <img src="img/photo/img_8093.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8092.png">
+                                <img src="img/photo/img_8092.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8088.png">
+                                <img src="img/photo/img_8088.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8089.png">
+                                <img src="img/photo/img_8089.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8087.png">
+                                <img src="img/photo/img_8087.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8084.png">
+                                <img src="img/photo/img_8083.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8097.png">
+                                <img src="img/photo/img_8097.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/photo/img_8406.png">
+                                <img src="img/photo/img_8406.png" alt="Woops! Lol">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
       </section>
 
+
+      <!-- Posts Modals -->
+      <div class="portfolio-modal modal fade" id="post1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="modal-body">
+                    <h2>Car Make Recognition</h2>
+                    <hr class="star-primary">
+                    <p> This is the project of Edmunds' intern program. The idea is that we wanna design a program that can identify the car make of a user’s input car image, and redirect our user to corresponding Edmunds page. I wrote a python script to get labeled image data from our edmunds database and google images as training data. Then we re-trained our model based on TensorFlow inception V3 model and got over 80% training accuray. Finally we built a UI for user to input thier images, designe an API, and deployed our ML model at AWS using Flask. We did a live demo in the final presentation and got applause for it. </p>
+                    <img class="img-responsive" style="height:400px;max-width: 100%;" src="img/photo/post1.png" alt="Car Make Recognition">
+                    <ul class="list-inline item-details">
+                        <li>Team:
+                            <strong><a href="https://github.com/ChrisLiu95/Car-Make-Recognition" target="_blank">I-CAN-ASSURE-YOU</a>
+                            </strong>
+                        </li>
+                        <li>Date:
+                            <strong><a href="https://github.com/ChrisLiu95/Car-Make-Recognition" target="_blank">May 2018 - Aug 2018</a>
+                            </strong>
+                        </li>
+                        <li>Topic:
+                            <strong><a href="https://github.com/ChrisLiu95/Car-Make-Recognition" target="_blank">Machine Learning / AWS</a> 
+                            </strong>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-modal modal fade" id="post2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="modal-body">
+                    <h2>Travel and Entertainment Search Engine</h2>
+                    <hr class="star-primary">
+                    <p> This project is the final project of CSCI-571 Web technologies. This project covered technologies of both front-end and back-end, like I used HTML/CSS/JavaScript for front-end design and PHP for back-end for the first version. Then i went further by using Bootstrap to design the UI for better looking interface and implementing AngularJS, JQuery JS framework as well. The back-end program was deployed at AWS and written by NodeJS. Finally, I made an Android version of this project.
+                    </p>
+                    <p> Several GoogleAPIs are used to provide place detailed information and customers reviews. </p>
+                    <p> It was this project that made me wanna pursue my career as a full-stack Engineer. I enjoy making friendly UI and also building the connection between front-end and back-end. </p>
+                    <p> I learned different framework for both Front-end and Back-end, also learned how to design or deal with different APIs, and got familiar with AWS as well.</p>
+                    <img class="img-responsive" style="height:400px;max-width: 100%;" src="img/photo/post2_a.png" alt="Place Search">
+                    <img class="img-responsive" style="height:400px;max-width: 100%;" src="img/photo/post2_b.png" alt="Place Search">
+                    <img class="img-responsive" style="height:400px;max-width: 100%;" src="img/photo/post2_c.png" alt="Place Search">
+                    <img class="img-responsive" style="height:400px;max-width: 100%;" src="img/photo/post2_d.png" alt="Place Search">
+                    <img class="img-responsive" style="height:400px;max-width: 100%;" src="img/photo/post2_e.png" alt="Place Search">
+                    <ul class="list-inline item-details">
+                        <li>Name:
+                            <strong><a href="https://github.com/ChrisLiu95/Entertainment-Search-Engine" target="_blank"> CSCI571 Project</a>
+                            </strong>
+                        </li>
+                        <li>Topic:
+                            <strong> <a href="https://github.com/ChrisLiu95/Entertainment-Search-Engine" target="_blank">BootStrap / AngularJS / NodeJs / AWS / Android</a> 
+                            </strong>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of portfolio-->
     </div>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -305,6 +419,14 @@
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
 
+    <!-- whether is PC or mobile -->
+    <script type="text/javascript">
+      if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+         $("#resume").html("");
+      }else{
+         $("#resume").html("<a href='resume.pdf'>&nbsp;&nbsp;Resume</a>");
+      }
+    </script>
   </body>
 
 </html>
